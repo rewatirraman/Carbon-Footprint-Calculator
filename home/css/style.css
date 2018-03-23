@@ -1,3 +1,59 @@
+/*navigation bar styling*/
+
+/* This properties is used to style the Navigation bar */
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    position:relative;
+    left:160px;
+}
+/*It is used to make the position of navigation to be fixed*/
+.nav{
+    position:fixed;
+    z-index:1;
+}
+
+
+/*It is used float to get block elements to slide next to each other*/
+ .nav li {
+    float: left;
+}
+
+ /*Displaying the links as block elements makes the whole link area clickable and specify some padding to make them look good */
+ .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+ .nav li a:hover {
+    background-color: grey;
+}
+
+
+/*home page styling*/
+
+/*This is used to style the background and font*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 #announcement-panel {
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -5,7 +61,7 @@
 
 #announcement-header, #announcement-subheader {
 	color: white;
-	background-color: rgba(38, 77, 0, 0.7);
+	background-color: grey;
 	padding: 5px;
 }
 
@@ -22,22 +78,22 @@
 }
 
 #announcement-panel {
-	background-image: url("../images/green-leaves.jpg");
+	background-image: url("kho1.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #home-energy-label, .fa-home {
-	color: #FF8C00;
+	color: red;
 }
 
 #travel-label, .fa-globe {
-	color: #008B8B;
+	color: red;
 }
 
 #waste-label, .fa-recycle {
-	color: #228B22;
+	color: red;
 }
 
 .progress-bar {
@@ -48,3 +104,57 @@
 	padding: 10px;
 	margin: 0;
 }
+
+
+
+/*Tips styling*/
+
+
+
+/*This is used to style the border*/
+.tips{
+    background-color:grey;
+     border:10px solid #bebebe;
+    padding: .3125em.625em.625em;
+    position:relative;
+    left:150px;
+}
+
+/*This is used to style h2 by changing the colour,font,size and add spacing and shadow between the letters*/
+ .tips h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-family:"Arial Black";
+    font-size:17px;
+    text-align: left;
+    font-variant=:small-caps;
+}
+/*This is used to increase and decrease the margin*/
+.tips h2 {
+    margin: 10px 0 0 0;
+}
+
+/*This used to style the paaragraph by changing the size and height of the text*/
+ .tips p {
+    font-family: verdana;
+    font-size: 20px;
+    line-height:1.6
+    text-indent:1.5em;
+    text-align:justify;
+  
+}
+
+
+
+.reduce p+p{
+    color:grey;
+}
+.tips main{
+width:75%;
+height: auto;
+padding-top:5%;
+}
+
+
+
+
